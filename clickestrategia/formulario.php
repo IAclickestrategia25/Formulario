@@ -109,7 +109,7 @@ $sequence_id = isset($_GET['sequence_id']) ? $_GET['sequence_id'] : '';
 'razon_social', V
 'nombre_comercial', Vca
 'sector', V
-'actividad_2', V
+'actividad_2', V quitar
 'actividad', V
 'cif', V
 'direccion_del_negocio', V
@@ -148,14 +148,16 @@ DESCARTADAS *************
 'resultado_2020 ',
 'facturacion_2021',
 'resultado_2021 ',
-'director_gerente ',
+
+
+'director_gerente ', V
 
 
 DUDA ***************************** !!!!!
 'cargo_1', V
 'cargo_2', V
 'cargo_3 ', V
-'cargo_4 ', V
+'cargo_4 ', V solo 4
 'cargo_5 ', V
 'cargo_6 ', V
 'cargo_7 ', V
