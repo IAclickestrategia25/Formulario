@@ -49,7 +49,13 @@ $correo_electronico_de_contacto_del_negocio = $_POST['correo_electronico_de_cont
 
 $poligono_industrial = $_POST['poligono_industrial'];
 
-$numero_de_trabajadores = $_POST['municnumero_de_trabajadoresipio'];
+$facturacion_2024 = $_POST['facturacion_2024'];
+
+$resultado_2024 = $_POST['resultado_2024'];
+
+$director_gerente = $_POST['director_gerente'];
+
+$numero_de_trabajadores = $_POST['numero_de_trabajadores'];
 
 $exporta = $_POST['exporta'];
 
@@ -57,15 +63,9 @@ $que_productos_exporta = $_POST['que_productos_exporta'];
 
 $estado_de_la_sociedad = $_POST['estado_de_la_sociedad'];
 
-$resultado_2024 = $_POST['resultado_2024'];
-
-$facturacion_2024 = $_POST['facturacion_2024'];
-
 $capital_social = $_POST['capital_social'];
 
 $terms_and_conditions_acceptance_date = $_POST['terms_and_conditions_acceptance_date'];
-
-// Aquí irían más variables si tienes más campos en tu formulario
 
 // Preparar la consulta de actualización
 $sql = "UPDATE pruebaInterna SET
